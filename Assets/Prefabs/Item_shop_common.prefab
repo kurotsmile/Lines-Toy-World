@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8912565067634028731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8991920779147245825}
+  - component: {fileID: 3817354728348450218}
+  m_Layer: 0
+  m_Name: Item_shop_common
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8991920779147245825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912565067634028731}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0188586, y: 0.12602066, z: 0.045405608}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3817354728348450218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912565067634028731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb41c4d1da1986243985b6b5ba1d9d7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  s_name: Common toy
+  s_desc: Everyday toys
+  sp_icon: {fileID: -1698049519, guid: d2f6abf81eb5e5b4bbc31932d49854a7, type: 3}
+  sp_items:
+  - {fileID: -1698049519, guid: d2f6abf81eb5e5b4bbc31932d49854a7, type: 3}
+  - {fileID: -1124661359, guid: d2f6abf81eb5e5b4bbc31932d49854a7, type: 3}
+  - {fileID: -2121034612, guid: d2f6abf81eb5e5b4bbc31932d49854a7, type: 3}
+  - {fileID: -258763077, guid: d2f6abf81eb5e5b4bbc31932d49854a7, type: 3}
+  - {fileID: 1112581291, guid: d2f6abf81eb5e5b4bbc31932d49854a7, type: 3}
+  - {fileID: -1802347408, guid: d2f6abf81eb5e5b4bbc31932d49854a7, type: 3}
+  index_buy: 0

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8912565067634028731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8991920779147245825}
+  - component: {fileID: 3817354728348450218}
+  m_Layer: 0
+  m_Name: Item_shop_traffic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8991920779147245825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912565067634028731}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0188586, y: 0.12602066, z: 0.045405608}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3817354728348450218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912565067634028731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb41c4d1da1986243985b6b5ba1d9d7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  s_name: Traffic toys
+  s_desc: Toys about transportation and travel
+  sp_icon: {fileID: 7997380372739537019, guid: e9d70900541769742b426c6c9210eeff, type: 3}
+  sp_items:
+  - {fileID: 7997380372739537019, guid: e9d70900541769742b426c6c9210eeff, type: 3}
+  - {fileID: 8144728413176581339, guid: e9d70900541769742b426c6c9210eeff, type: 3}
+  - {fileID: -6941187877599200898, guid: e9d70900541769742b426c6c9210eeff, type: 3}
+  - {fileID: 8624678294559926024, guid: e9d70900541769742b426c6c9210eeff, type: 3}
+  - {fileID: -4380943860327066476, guid: e9d70900541769742b426c6c9210eeff, type: 3}
+  - {fileID: -5420320138099429677, guid: e9d70900541769742b426c6c9210eeff, type: 3}
+  index_buy: 1
